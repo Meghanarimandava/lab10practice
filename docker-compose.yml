@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: meghanari/dockerlab-backend:latest
+    image: 
     container_name: springboot
     ports:
       - "2089:2000"
