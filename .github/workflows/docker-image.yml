@@ -35,6 +35,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./reactfrontend
-          file: ./reactfrontend/frontend.Dockerfile  
+          file: ./reactfrontend/frontend.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/meghanari/dockerlab-frontend:latest
